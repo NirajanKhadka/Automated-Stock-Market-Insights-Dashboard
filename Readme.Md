@@ -1,6 +1,6 @@
-# 1. Real-Time Stock Market Insights Dashboard 📊💹
+# 1. Automated Stock Market Insights Dashboard 📊💹
 
-**Real-Time Stock Market Insights Dashboard** is an end-to-end solution designed to provide actionable insights into the performance of FAANG stocks. This automated system integrates live stock data, processes it in real-time, and delivers dynamic visualizations through an interactive Power BI dashboard. Users can explore key metrics like moving averages, volume trends, price changes, and volatility, along with top-performing stocks over customizable timeframes. With seamless automation and user-friendly visuals, the project simplifies stock analysis for quick and informed decision-making.
+**Automated Stock Market Insights Dashboard** is an end-to-end solution designed to provide actionable insights into the performance of FAANG stocks. This automated system integrates live stock data, processes it in real-time, and delivers dynamic visualizations through an interactive Power BI dashboard. Users can explore key metrics like moving averages, volume trends, price changes, and volatility, along with top-performing stocks over customizable timeframes. With seamless automation and user-friendly visuals, the project simplifies stock analysis for quick and informed decision-making.
 
 
 ---
@@ -25,14 +25,14 @@
 
 ---
 ### Introduction 
-Welcome to this **Real-Time Stock Market Insights Dashboard**. This solution fetch stock market data from major FAANG companies (Meta, Apple, Amazon, Netflix and Google) and visualize it. Real time and historical stock data comes through the dashboard using the Alpha Vantage API so that it's always up to date. Here the data is stored in a PostgreSQL database for querying for analysis and can be displayed in Power BI.
+Welcome to this **Automated Stock Market Insights Dashboard**. This solution fetch stock market data from major FAANG companies (Meta, Apple, Amazon, Netflix and Google) and visualize it. New and historical stock data comes through the dashboard using the Alpha Vantage API so that it's always up to date. Here the data is stored in a PostgreSQL database for querying for analysis and can be displayed in Power BI.
 
 It features traditional price history as well as price changes, volatility, and average returns all versus customizable time periods for owners to explore. This dashboard takes stock data metrics such as daily fluctuations or risk volatility and calculates average returns, so you get a clear understanding of whether or not a stock is headed in your favors.
 
 ---
 
 ### Technologies Used 
-The **Real-Time Stock Market Insights Dashboard** uses a combination of technologies to ensure efficient data collection, storage, and visualization:
+The **Automated Stock Market Insights Dashboard** uses a combination of technologies to ensure efficient data collection, storage, and visualization:
 - **Python 🐍**: A powerful scripting language for fetching stock data, processing and interacting with APIs.
 - **Alpha Vantage API 📡**: Offers free access to tidy stock market data, including historical and real time stock prices as time series data.
 - **PostgreSQL 🗄️**: A secured and efficient relational database management system used in storing and managing stock data.
@@ -162,7 +162,7 @@ CREATE TABLE stock_data (
 
 ###  How the Data is Fetched 
 
-The data for this project is fetched using the **Alpha Vantage API**, a free service that provides real-time and historical stock data. The data fetching process is broken down into two main steps:
+The data for this project is fetched using the **Alpha Vantage API**, a free service that provides new and historical stock data. The data fetching process is broken down into two main steps:
 
 ####  **Fetching the Last 30 Days of Stock Data**
 
@@ -455,7 +455,7 @@ If you're using Power BI Service to host the dashboard:
 2. Go to the **Datasets** section in Power BI Service and find your dataset.
 3. Click on the **Schedule Refresh** option and set the refresh schedule to match your data fetching frequency (e.g., daily).
 
-With these steps, you can create a real-time, automated stock analysis dashboard in Power BI.
+With these steps, you can create a automated stock analysis dashboard in Power BI.
 
 ---
 
@@ -469,7 +469,7 @@ In this section, we will go over the various visualizations used in the Power BI
 
 # Stock Market Dashboard - Detailed Overview
 
-The **Stock Market Dashboard** is an interactive and data-driven visualization tool designed to provide users with real-time insights into the performance of the top 5 FAANG stocks: **Facebook**, **Apple**, **Amazon**, **Netflix**, and **Google**. The dashboard displays critical stock data, including opening and closing prices, trading volume, and moving averages. It also highlights key trends and patterns, enabling investors to make informed decisions. This section provides a detailed overview of the dashboard’s features, functionalities, and underlying architecture.
+The **Stock Market Dashboard** is an interactive and data-driven visualization tool designed to provide users with Automated insights into the performance of the top 5 FAANG stocks: **Facebook**, **Apple**, **Amazon**, **Netflix**, and **Google**. The dashboard displays critical stock data, including opening and closing prices, trading volume, and moving averages. It also highlights key trends and patterns, enabling investors to make informed decisions. This section provides a detailed overview of the dashboard’s features, functionalities, and underlying architecture.
 
 ## 1. Dashboard Layout and Features
 
